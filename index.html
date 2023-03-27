@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Timesheet Calculator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Timesheet Calculator</h1>
+
+		<form>
+			<label for="hours">Hours Worked:</label>
+			<input type="number" id="hours" name="hours"><br><br>
+
+			<label for="rate">Hourly Rate:</label>
+			<input type="number" id="rate" name="rate"><br><br>
+
+			<button type="button" onclick="calculate()">Calculate</button><br><br>
+
+			<label for="result">Total Earnings:</label>
+			<input type="text" id="result" name="result" disabled>
+		</form>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
